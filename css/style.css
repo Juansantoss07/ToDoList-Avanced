@@ -164,3 +164,10 @@ select {
   text-decoration: line-through;
   font-style: italic;
 }
+
+@media (max-width:480px) {
+  .todo-container {
+    max-width: 90%;
+    margin: 4rem 0;
+  }
+}
